@@ -8,17 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		9737D77F2AA115E600F15B60 /* Todo_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737D77E2AA115E600F15B60 /* Todo_ListApp.swift */; };
-		9737D7812AA115E600F15B60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737D7802AA115E600F15B60 /* ContentView.swift */; };
+		9737D7812AA115E600F15B60 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737D7802AA115E600F15B60 /* MainView.swift */; };
 		9737D7832AA115E800F15B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9737D7822AA115E800F15B60 /* Assets.xcassets */; };
 		9737D7862AA115E800F15B60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9737D7852AA115E800F15B60 /* Preview Assets.xcassets */; };
+		9737D78F2AA1185500F15B60 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9737D78E2AA1185500F15B60 /* GoogleService-Info.plist */; };
+		9737D7922AA11A4600F15B60 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9737D7912AA11A4600F15B60 /* FirebaseAuth */; };
+		9737D7942AA11A4600F15B60 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9737D7932AA11A4600F15B60 /* FirebaseFirestore */; };
+		9737D7962AA11A4600F15B60 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9737D7952AA11A4600F15B60 /* FirebaseFirestoreSwift */; };
+		9737D79D2AA11BB100F15B60 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737D79C2AA11BB100F15B60 /* ProfileView.swift */; };
+		9737D79F2AA11BC300F15B60 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737D79E2AA11BC300F15B60 /* TodoListView.swift */; };
+		9737D7A12AA11BD500F15B60 /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737D7A02AA11BD500F15B60 /* NewItemView.swift */; };
+		9737D7A32AA11BEA00F15B60 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737D7A22AA11BEA00F15B60 /* LoginView.swift */; };
+		9737D7A52AA11BF500F15B60 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737D7A42AA11BF500F15B60 /* RegisterView.swift */; };
+		9737D7A72AA11C1C00F15B60 /* TodoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737D7A62AA11C1C00F15B60 /* TodoListItemView.swift */; };
+		9737D7A92AA11C5F00F15B60 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737D7A82AA11C5F00F15B60 /* User.swift */; };
+		9737D7AB2AA11C6C00F15B60 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737D7AA2AA11C6C00F15B60 /* TodoItem.swift */; };
+		9737D7AD2AA11C9800F15B60 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737D7AC2AA11C9800F15B60 /* MainViewModel.swift */; };
+		9737D7AF2AA11CA100F15B60 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737D7AE2AA11CA100F15B60 /* ProfileViewModel.swift */; };
+		9737D7B12AA11CAC00F15B60 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737D7B02AA11CAC00F15B60 /* TodoListViewModel.swift */; };
+		9737D7B32AA11CBC00F15B60 /* NewItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737D7B22AA11CBC00F15B60 /* NewItemViewModel.swift */; };
+		9737D7B52AA11CC300F15B60 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737D7B42AA11CC300F15B60 /* LoginViewModel.swift */; };
+		9737D7B72AA11CCB00F15B60 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737D7B62AA11CCB00F15B60 /* RegisterViewModel.swift */; };
+		97645B632AA3098F00850D13 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97645B622AA3098F00850D13 /* HeaderView.swift */; };
+		97645B652AA3143300850D13 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97645B642AA3143300850D13 /* TLButton.swift */; };
+		97645B672AA31E3F00850D13 /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97645B662AA31E3F00850D13 /* Extenstions.swift */; };
+		97645B692AA3218E00850D13 /* Constanst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97645B682AA3218E00850D13 /* Constanst.swift */; };
+		97645B6B2AA332CF00850D13 /* TodoListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97645B6A2AA332CF00850D13 /* TodoListItemViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9737D77B2AA115E600F15B60 /* Todo List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9737D77E2AA115E600F15B60 /* Todo_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_ListApp.swift; sourceTree = "<group>"; };
-		9737D7802AA115E600F15B60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9737D7802AA115E600F15B60 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		9737D7822AA115E800F15B60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9737D7852AA115E800F15B60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9737D78E2AA1185500F15B60 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9737D79C2AA11BB100F15B60 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9737D79E2AA11BC300F15B60 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		9737D7A02AA11BD500F15B60 /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
+		9737D7A22AA11BEA00F15B60 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9737D7A42AA11BF500F15B60 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		9737D7A62AA11C1C00F15B60 /* TodoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItemView.swift; sourceTree = "<group>"; };
+		9737D7A82AA11C5F00F15B60 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9737D7AA2AA11C6C00F15B60 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		9737D7AC2AA11C9800F15B60 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		9737D7AE2AA11CA100F15B60 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		9737D7B02AA11CAC00F15B60 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
+		9737D7B22AA11CBC00F15B60 /* NewItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewModel.swift; sourceTree = "<group>"; };
+		9737D7B42AA11CC300F15B60 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		9737D7B62AA11CCB00F15B60 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		97645B622AA3098F00850D13 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		97645B642AA3143300850D13 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		97645B662AA31E3F00850D13 /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
+		97645B682AA3218E00850D13 /* Constanst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constanst.swift; sourceTree = "<group>"; };
+		97645B6A2AA332CF00850D13 /* TodoListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItemViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9737D7922AA11A4600F15B60 /* FirebaseAuth in Frameworks */,
+				9737D7942AA11A4600F15B60 /* FirebaseFirestore in Frameworks */,
+				9737D7962AA11A4600F15B60 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +97,10 @@
 		9737D77D2AA115E600F15B60 /* Todo List */ = {
 			isa = PBXGroup;
 			children = (
-				9737D77E2AA115E600F15B60 /* Todo_ListApp.swift */,
-				9737D7802AA115E600F15B60 /* ContentView.swift */,
-				9737D7822AA115E800F15B60 /* Assets.xcassets */,
+				9737D79B2AA11AFC00F15B60 /* Other */,
+				9737D79A2AA11AF400F15B60 /* Models */,
+				9737D7992AA11AEC00F15B60 /* ViewModels */,
+				9737D7972AA11ADB00F15B60 /* Views */,
 				9737D7842AA115E800F15B60 /* Preview Content */,
 			);
 			path = "Todo List";
@@ -65,6 +112,57 @@
 				9737D7852AA115E800F15B60 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9737D7972AA11ADB00F15B60 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9737D7802AA115E600F15B60 /* MainView.swift */,
+				9737D79C2AA11BB100F15B60 /* ProfileView.swift */,
+				9737D79E2AA11BC300F15B60 /* TodoListView.swift */,
+				9737D7A02AA11BD500F15B60 /* NewItemView.swift */,
+				9737D7A22AA11BEA00F15B60 /* LoginView.swift */,
+				9737D7A42AA11BF500F15B60 /* RegisterView.swift */,
+				9737D7A62AA11C1C00F15B60 /* TodoListItemView.swift */,
+				97645B622AA3098F00850D13 /* HeaderView.swift */,
+				97645B642AA3143300850D13 /* TLButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9737D7992AA11AEC00F15B60 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9737D7AC2AA11C9800F15B60 /* MainViewModel.swift */,
+				9737D7AE2AA11CA100F15B60 /* ProfileViewModel.swift */,
+				9737D7B02AA11CAC00F15B60 /* TodoListViewModel.swift */,
+				9737D7B22AA11CBC00F15B60 /* NewItemViewModel.swift */,
+				9737D7B42AA11CC300F15B60 /* LoginViewModel.swift */,
+				9737D7B62AA11CCB00F15B60 /* RegisterViewModel.swift */,
+				97645B6A2AA332CF00850D13 /* TodoListItemViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9737D79A2AA11AF400F15B60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9737D7A82AA11C5F00F15B60 /* User.swift */,
+				9737D7AA2AA11C6C00F15B60 /* TodoItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9737D79B2AA11AFC00F15B60 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9737D7822AA115E800F15B60 /* Assets.xcassets */,
+				9737D77E2AA115E600F15B60 /* Todo_ListApp.swift */,
+				9737D78E2AA1185500F15B60 /* GoogleService-Info.plist */,
+				97645B662AA31E3F00850D13 /* Extenstions.swift */,
+				97645B682AA3218E00850D13 /* Constanst.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +181,11 @@
 			dependencies = (
 			);
 			name = "Todo List";
+			packageProductDependencies = (
+				9737D7912AA11A4600F15B60 /* FirebaseAuth */,
+				9737D7932AA11A4600F15B60 /* FirebaseFirestore */,
+				9737D7952AA11A4600F15B60 /* FirebaseFirestoreSwift */,
+			);
 			productName = "Todo List";
 			productReference = 9737D77B2AA115E600F15B60 /* Todo List.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +214,9 @@
 				Base,
 			);
 			mainGroup = 9737D7722AA115E600F15B60;
+			packageReferences = (
+				9737D7902AA11A4600F15B60 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 9737D77C2AA115E600F15B60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +233,7 @@
 			files = (
 				9737D7862AA115E800F15B60 /* Preview Assets.xcassets in Resources */,
 				9737D7832AA115E800F15B60 /* Assets.xcassets in Resources */,
+				9737D78F2AA1185500F15B60 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +244,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9737D7812AA115E600F15B60 /* ContentView.swift in Sources */,
+				9737D7AB2AA11C6C00F15B60 /* TodoItem.swift in Sources */,
+				97645B652AA3143300850D13 /* TLButton.swift in Sources */,
+				9737D7A32AA11BEA00F15B60 /* LoginView.swift in Sources */,
+				9737D7B12AA11CAC00F15B60 /* TodoListViewModel.swift in Sources */,
+				9737D7B72AA11CCB00F15B60 /* RegisterViewModel.swift in Sources */,
+				9737D7AD2AA11C9800F15B60 /* MainViewModel.swift in Sources */,
+				9737D7812AA115E600F15B60 /* MainView.swift in Sources */,
+				97645B692AA3218E00850D13 /* Constanst.swift in Sources */,
+				97645B6B2AA332CF00850D13 /* TodoListItemViewModel.swift in Sources */,
+				97645B632AA3098F00850D13 /* HeaderView.swift in Sources */,
+				9737D79F2AA11BC300F15B60 /* TodoListView.swift in Sources */,
+				9737D7AF2AA11CA100F15B60 /* ProfileViewModel.swift in Sources */,
+				9737D7A52AA11BF500F15B60 /* RegisterView.swift in Sources */,
+				9737D7B52AA11CC300F15B60 /* LoginViewModel.swift in Sources */,
+				9737D7B32AA11CBC00F15B60 /* NewItemViewModel.swift in Sources */,
+				97645B672AA31E3F00850D13 /* Extenstions.swift in Sources */,
+				9737D79D2AA11BB100F15B60 /* ProfileView.swift in Sources */,
+				9737D7A92AA11C5F00F15B60 /* User.swift in Sources */,
+				9737D7A72AA11C1C00F15B60 /* TodoListItemView.swift in Sources */,
 				9737D77F2AA115E600F15B60 /* Todo_ListApp.swift in Sources */,
+				9737D7A12AA11BD500F15B60 /* NewItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +396,11 @@
 				DEVELOPMENT_TEAM = 68555DBBHA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Todo List";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +425,11 @@
 				DEVELOPMENT_TEAM = 68555DBBHA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Todo List";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +465,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9737D7902AA11A4600F15B60 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9737D7912AA11A4600F15B60 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9737D7902AA11A4600F15B60 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9737D7932AA11A4600F15B60 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9737D7902AA11A4600F15B60 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		9737D7952AA11A4600F15B60 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9737D7902AA11A4600F15B60 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9737D7732AA115E600F15B60 /* Project object */;
 }
